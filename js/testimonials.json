@@ -1,0 +1,24 @@
+{
+    "testimonials": [
+        {
+            "name": "Sarah Johnson",
+            "company": "TechCorp Inc.",
+            "text": "Spanning Tree Corporation revolutionized our network infrastructure. Their solutions are top-notch!"
+        },
+        {
+            "name": "Michael Chen",
+            "company": "DataFlow Systems",
+            "text": "The team's expertise in network design saved us countless hours of downtime."
+        },
+        {
+            "name": "Emily Rodriguez",
+            "company": "Global Education Partners",
+            "text": "Professional, responsive, and highly skilled. Would recommend to anyone!"
+        },
+        {
+            "name": "Carla von Claude",
+            "company": "Cisco",
+            "text": "Spanning Tree Corporation really did a number on our switches, they&#039;re all solar-powered now!"
+        }
+    ]
+}
