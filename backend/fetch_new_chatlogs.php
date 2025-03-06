@@ -7,11 +7,14 @@ $remote_port = 22; // default SSH port
 $remote_file = '/srv/logs/chat_logs.json';
 $local_file  = __DIR__ . '/chat_logs.json';
 
-$username = 'salem';
+$username = getenv('REMOTE_USER');
 $password = getenv('REMOTE_PASSWORD');
 
 if (!$password) {
     die("Error: Password is not set in environment variables.\n");
+	
+if (!$username) {
+    die("Error: Username is not set in environment variables.\n");
 
 // Check if the SSH2 extension is available
 if (!function_exists('ssh2_connect')) {
